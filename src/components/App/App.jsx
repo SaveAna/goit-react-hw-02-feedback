@@ -4,7 +4,9 @@ import Section from '../Section/Section';
 export default function App() {
   return (
     <Container>
-      <Section title=""></Section>
+      <Section title="">
+        <FeedbackOptions options={} onLeaveFeedback={}></FeedbackOptions>
+      </Section>
     </Container>
   );
 }
